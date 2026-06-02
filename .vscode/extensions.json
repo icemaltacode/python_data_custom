@@ -1,0 +1,7 @@
+{
+  // VSCode prompts students to install these when they open the folder.
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance"
+  ]
+}
