@@ -1,4 +1,4 @@
-# PPF FIAU — Python Practice Exercises
+# PPF — Python Practice Exercises
 
 Practice exercises for the course, organised by module (`Module 4/`, etc.).
 
