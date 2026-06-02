@@ -1,8 +1,7 @@
 {
   // The Python extension auto-detects the ".venv" folder in the workspace root
-  // and selects it. This default helps macOS/Linux pick it deterministically;
-  // on Windows the extension resolves ".venv\Scripts\python.exe" automatically.
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  // and selects it on all platforms (".venv/bin/python" on macOS/Linux,
+  // ".venv\Scripts\python.exe" on Windows) once it exists — no path needed here.
 
   // Activate the venv automatically in every new integrated terminal.
   "python.terminal.activateEnvironment": true,
