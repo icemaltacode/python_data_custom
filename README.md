@@ -11,8 +11,8 @@ Practice exercises for the course, organised by module (`Module 4/`, etc.).
 ## Getting started
 
 ```bash
-git clone <repo-url>
-cd ppf_fiau
+git clone https://github.com/icemaltacode/python_data_custom.git
+cd python_data_custom
 code .
 ```
 
