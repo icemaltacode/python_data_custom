@@ -1,4 +1,7 @@
 """
+Subsetting NumPy Arrays
+=======================
+
 Subsetting (using the square bracket notation on lists or arrays) works exactly the same with both lists and arrays.
 
 This exercise already has two lists, height_in and weight_lb, loaded in the background for you. 

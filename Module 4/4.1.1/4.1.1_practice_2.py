@@ -1,4 +1,7 @@
 """
+Baseball players' height
+========================
+
 You are a huge baseball fan. You decide to call the MLB (Major League Baseball) and ask 
 around for some more statistics on the height of the main players. 
 They pass along data on more than a thousand players, which is stored as a regular 
