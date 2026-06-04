@@ -16,5 +16,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Temp files
+scratch.py
+
 # Instructor solutions — kept out of the student repo
 Solutions/
