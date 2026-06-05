@@ -36,11 +36,11 @@ for row in data.itertuples(index=False):
 # Style every cell in the header row (ws[1]): bold + white font, dark blue fill.
 # Hint: Font(bold=True, color="FFFFFF") and PatternFill("solid", fgColor="1F3864")
 for cell in ws[1]:
-    cell.font =
-    cell.fill =
+    cell.font = ____
+    cell.fill = ____
 
 # Widen column "A" to 22
-ws.column_dimensions["A"].width =
+ws.column_dimensions["A"].width = ____
 
 # Build a scatter chart of Height (column 2) vs Weight (column 3).
 # Data is in rows 2 to 1016.

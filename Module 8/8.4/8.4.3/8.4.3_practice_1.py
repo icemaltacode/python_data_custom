@@ -1,0 +1,32 @@
+"""
+Pivot temperature by city and year
+==================================
+
+It's interesting to see how temperatures for each city change over time—looking at every 
+month results in a big table, which can be tricky to reason about. 
+Instead, let's look at how temperatures change by year.
+
+You can access the components of a date (year, month and day) using code of the 
+form dataframe["column"].dt.component. For example, the month component is 
+dataframe["column"].dt.month, and the year component is dataframe["column"].dt.year.
+
+Once you have the year column, you can create a pivot table with the data aggregated by city and year, which you'll explore in the coming exercises.
+
+pandas is loaded as pd. temperatures is available.
+"""
+
+# region setup
+import pandas as pd
+temperatures = pd.read_csv('Module 8/data/temperatures.csv', index_col=0, parse_dates=["date"])
+# endregion
+
+## ---- START HERE ----
+
+# Add a year column to temperatures
+____
+
+# Pivot avg_temp_c by country and city vs year
+temp_by_country_city_vs_year = ____
+
+# See the result
+print(temp_by_country_city_vs_year)

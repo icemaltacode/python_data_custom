@@ -10,5 +10,24 @@
   "files.exclude": {
     "**/__pycache__": true,
     "**/*.pyc": true
-  }
+  },
+
+  // The "____" fill-in-the-blank placeholders are undefined names, which
+  // Pylance flags with a yellow squiggle. Silence only that one rule so all
+  // other diagnostics still work.
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUndefinedVariable": "none"
+  },
+
+  // Status-bar button (via the "Commands" extension) that runs the currently
+  // highlighted lines in the persistent Python terminal, so setup state from
+  // earlier runs is kept.
+  "commands.commands": [
+    {
+      "command": "python.execSelectionInTerminal",
+      "text": "▶ Run Selection",
+      "tooltip": "Run highlighted lines in the Python terminal",
+      "alignment": "left"
+    }
+  ]
 }

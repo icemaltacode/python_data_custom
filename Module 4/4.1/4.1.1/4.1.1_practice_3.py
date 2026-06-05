@@ -11,14 +11,15 @@ It also has two numpy array lists, np_weight_lb and np_height_in prepared for yo
 
 # region setup
 import pandas as pd
-import numpy as np
 mlb = pd.read_csv("Module 4/data/baseball.csv")
 height_in = mlb['Height'].tolist()
 weight_lb = mlb['Weight'].tolist()
+# endregion
+
+import numpy as np
 
 np_weight_lb = np.array(weight_lb)  # Baseball player weights
 np_height_in = np.array(height_in)  # Baseball player heights
-# endregion
 
 ## ---- START HERE ---- 
 

@@ -2,6 +2,8 @@
   // VSCode prompts students to install these when they open the folder.
   "recommendations": [
     "ms-python.python",
-    "ms-python.vscode-pylance"
+    "ms-python.vscode-pylance",
+    // Adds a custom status-bar button that runs the highlighted lines.
+    "fabiospampinato.vscode-commands"
   ]
 }

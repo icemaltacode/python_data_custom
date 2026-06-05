@@ -25,14 +25,14 @@ print("Average: " + str(avg))
 ## ---- START HERE ----
 
 # Complete the code for the median height
-med = 
+med = ____
 print("Median: " + str(med))
 
 # Use np.std() on the first column of np_baseball to calculate stddev
-stddev = 
+stddev = ____
 print("Standard Deviation: " + str(stddev))
 
 # Do big players tend to be heavier? Use np.corrcoef() to store the correlation 
 # between the first and second column of np_baseball in corr
-corr = 
+corr = ____
 print("Correlation: " + str(corr))
