@@ -1,0 +1,88 @@
+:root {
+  --bg: #f1f5f9;
+  --panel: #ffffff;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --blue: #2563eb;
+  --red: #dc2626;
+  --border: #e2e8f0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+header {
+  background: var(--ink);
+  color: #fff;
+  padding: 1.25rem 2rem;
+}
+header h1 { margin: 0; font-size: 1.4rem; }
+header .subtitle { margin: 0.25rem 0 0; color: #94a3b8; font-size: 0.85rem; letter-spacing: 0.05em; }
+
+section { padding: 1.5rem 2rem; }
+
+/* KPI cards */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; padding-bottom: 0; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.card-label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.card-value { font-size: 1.9rem; font-weight: 700; }
+.card-alert { border-color: var(--red); }
+.card-alert .card-value { color: var(--red); }
+
+/* Charts */
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.chart-box {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+.chart-box.wide { grid-column: 1 / -1; }
+.chart-box h2 { margin: 0 0 0.75rem; font-size: 1rem; color: var(--muted); }
+.chart-box canvas { max-height: 320px; }
+
+/* Alerts table */
+.alerts h2 { font-size: 1.1rem; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+th, td { text-align: left; padding: 0.65rem 0.85rem; border-bottom: 1px solid var(--border); }
+thead th { background: #f8fafc; color: var(--muted); text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.04em; }
+tbody tr:last-child td { border-bottom: none; }
+.reason {
+  display: inline-block;
+  background: #fee2e2;
+  color: var(--red);
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .cards, .charts { grid-template-columns: 1fr; }
+}
