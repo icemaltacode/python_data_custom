@@ -1,0 +1,57 @@
+date,product,category,quantity,unit_price
+2025-01-03,Cappuccino,Drinks,5,3.50
+2025-01-03,Croissant,Bakery,3,2.20
+2025-01-04,Espresso,Drinks,8,2.00
+2025-01-04,Blueberry Muffin,Bakery,4,2.80
+2025-01-05,Cappuccino,Drinks,6,3.50
+2025-01-05,Ham Sandwich,Food,2,5.50
+2025-01-06,Latte,Drinks,7,3.80
+2025-01-06,Croissant,Bakery,5,2.20
+2025-01-07,Orange Juice,Drinks,3,3.00
+2025-01-07,Chicken Wrap,Food,4,6.00
+2025-01-08,Cappuccino,Drinks,9,3.50
+2025-01-08,Chocolate Cookie,Bakery,6,1.50
+2025-01-09,Espresso,Drinks,5,2.00
+2025-01-09,Blueberry Muffin,Bakery,3,2.80
+2025-01-10,Latte,Drinks,8,3.80
+2025-01-10,Ham Sandwich,Food,3,5.50
+2025-01-11,Cappuccino,Drinks,7,3.50
+2025-01-11,Croissant,Bakery,4,2.20
+2025-01-12,Green Tea,Drinks,2,2.50
+2025-01-12,Chicken Wrap,Food,5,6.00
+2025-01-13,Cappuccino,Drinks,10,3.50
+2025-01-13,Chocolate Cookie,Bakery,8,1.50
+2025-01-14,Espresso,Drinks,6,2.00
+2025-01-14,Cheese Bagel,Bakery,3,2.40
+2025-01-15,Latte,Drinks,9,3.80
+2025-01-15,Tuna Sandwich,Food,2,5.20
+2025-01-16,Cappuccino,Drinks,8,3.50
+2025-01-16,Croissant,Bakery,6,2.20
+2025-01-17,Orange Juice,Drinks,4,3.00
+2025-01-17,Chicken Wrap,Food,3,6.00
+2025-01-18,Cappuccino,Drinks,11,3.50
+2025-01-18,Blueberry Muffin,Bakery,5,2.80
+2025-01-19,Espresso,Drinks,7,2.00
+2025-01-19,Chocolate Cookie,Bakery,9,1.50
+2025-01-20,Latte,Drinks,6,3.80
+2025-01-20,Ham Sandwich,Food,4,5.50
+2025-01-21,Cappuccino,Drinks,9,3.50
+2025-01-21,Croissant,Bakery,7,2.20
+2025-01-22,Green Tea,Drinks,3,2.50
+2025-01-22,Chicken Wrap,Food,6,6.00
+2025-01-23,Cappuccino,Drinks,12,3.50
+2025-01-23,Cheese Bagel,Bakery,4,2.40
+2025-01-24,Espresso,Drinks,8,2.00
+2025-01-24,Blueberry Muffin,Bakery,6,2.80
+2025-01-25,Latte,Drinks,10,3.80
+2025-01-25,Tuna Sandwich,Food,3,5.20
+2025-01-26,Cappuccino,Drinks,7,3.50
+2025-01-26,Chocolate Cookie,Bakery,10,1.50
+2025-01-27,Orange Juice,Drinks,5,3.00
+2025-01-27,Ham Sandwich,Food,4,5.50
+2025-01-28,Cappuccino,Drinks,8,3.50
+2025-01-28,Croissant,Bakery,8,2.20
+2025-01-29,Espresso,Drinks,9,2.00
+2025-01-29,Chicken Wrap,Food,5,6.00
+2025-01-30,Latte,Drinks,7,3.80
+2025-01-30,Blueberry Muffin,Bakery,4,2.80
